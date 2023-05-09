@@ -17,8 +17,8 @@ readLine.question('Favor informar um número:', (numero1) => {
 const numeroValidado1 = validarNumeroInformado(numero1);
  
 if(numeroValidado1)
-    readLine.question('Favor informar outro numero:' (numero2) => {
-            const numeroValidado2 = validarNumeroInformado(numero2);    
+        readLine.question('Favor informar outro número:', (numero2) => {
+          const numeroValidado2 = validarNumeroInformado(numero2);    
 
 
             
